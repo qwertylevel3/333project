@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{647FEE7D-4AE5-430E-A954-B195E65B3A33}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My333project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="333project.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="resource\01 - さぁ冒険を始めたまえ! 【オープニング】.wav" />
+    <None Include="resource\a.ico" />
+    <None Include="resource\b.ico" />
+    <None Include="resource\background1.bmp" />
+    <None Include="resource\background2.bmp" />
+    <None Include="resource\background3.bmp" />
+    <None Include="resource\boom1.bmp" />
+    <None Include="resource\boom2.bmp" />
+    <None Include="resource\boom3.bmp" />
+    <None Include="resource\boompoint.bmp" />
+    <None Include="resource\caonima1.bmp" />
+    <None Include="resource\caonima2.bmp" />
+    <None Include="resource\caonima3.bmp" />
+    <None Include="resource\caonima4.bmp" />
+    <None Include="resource\choose.wav" />
+    <None Include="resource\choosebitmap.bmp" />
+    <None Include="resource\die.wav" />
+    <None Include="resource\dragon1.bmp" />
+    <None Include="resource\dragon2.bmp" />
+    <None Include="resource\dragon3.bmp" />
+    <None Include="resource\ending.bmp" />
+    <None Include="resource\enemybullet1.bmp" />
+    <None Include="resource\enemybullet2.bmp" />
+    <None Include="resource\enemybullet3.bmp" />
+    <None Include="resource\enemybullet4.bmp" />
+    <None Include="resource\enemybullet5.bmp" />
+    <None Include="resource\gameover.bmp" />
+    <None Include="resource\hp1.bmp" />
+    <None Include="resource\hp2.bmp" />
+    <None Include="resource\loading.bmp" />
+    <None Include="resource\logo.bmp" />
+    <None Include="resource\logo31.bmp" />
+    <None Include="resource\player1.bmp" />
+    <None Include="resource\player1bullet1.bmp" />
+    <None Include="resource\player1bullet2.bmp" />
+    <None Include="resource\player1bullet3.bmp" />
+    <None Include="resource\player1bullet4.bmp" />
+    <None Include="resource\player1head.bmp" />
+    <None Include="resource\player2.bmp" />
+    <None Include="resource\player2bullet1.bmp" />
+    <None Include="resource\player2bullet2.bmp" />
+    <None Include="resource\player2bullet3.bmp" />
+    <None Include="resource\player2bullet4.bmp" />
+    <None Include="resource\player2bullet5.bmp" />
+    <None Include="resource\player2head.bmp" />
+    <None Include="resource\player3.bmp" />
+    <None Include="resource\player3bullet1.bmp" />
+    <None Include="resource\player3bullet2.bmp" />
+    <None Include="resource\player3bullet3.bmp" />
+    <None Include="resource\player3bullet4.bmp" />
+    <None Include="resource\player3head.bmp" />
+    <None Include="resource\point.bmp" />
+    <None Include="resource\QQ.bmp" />
+    <None Include="resource\qq1.bmp" />
+    <None Include="resource\qq2.bmp" />
+    <None Include="resource\sc.wav" />
+    <None Include="resource\SC1.bmp" />
+    <None Include="resource\sc11.bmp" />
+    <None Include="resource\SC2.bmp" />
+    <None Include="resource\sc21.bmp" />
+    <None Include="resource\sc22.bmp" />
+    <None Include="resource\sc23.bmp" />
+    <None Include="resource\sc24.bmp" />
+    <None Include="resource\sc25.bmp" />
+    <None Include="resource\sc26.bmp" />
+    <None Include="resource\SC3.bmp" />
+    <None Include="resource\sc31.bmp" />
+    <None Include="resource\shoot.wav" />
+    <None Include="resource\stone1.bmp" />
+    <None Include="resource\stone2.bmp" />
+    <None Include="resource\stone3.bmp" />
+    <None Include="resource\stone4.bmp" />
+    <None Include="resource\title.bmp" />
+    <None Include="resource\wall.bmp" />
+    <None Include="resource\wallpaper.bmp" />
+    <None Include="resource\warning.wav" />
+    <None Include="resource\wav1.bin" />
+    <None Include="resource\www.ico.la_ecc501bcce2561d336764c5e3108a605_32X32.ico" />
+    <None Include="resource\加一条命.wav" />
+    <None Include="resource\角色选择.bmp" />
+    <None Include="resource\角色选择1.bmp" />
+    <None Include="resource\角色选择2.bmp" />
+    <None Include="resource\角色选择3.bmp" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="333project.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="333project.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="333project.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

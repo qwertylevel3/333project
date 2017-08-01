@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="333project.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\a.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\b.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player1head.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2head.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player3head.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\SC1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\SC2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\SC3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player1bullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player1bullet2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player1bullet3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player1bullet4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2bullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2bullet2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2bullet3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2bullet4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player3bullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player3bullet2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player3bullet3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player3bullet4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\caonima1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\caonima2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\caonima3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\caonima4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\dragon1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\dragon2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\dragon3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\stone1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\stone2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\stone3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\stone4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\qq1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\qq2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\QQ.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\boom1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\boom2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\boom3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\gameover.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\loading.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\wallpaper.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\background1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\background2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\background3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\boompoint.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\point.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc11.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc21.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc22.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc23.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc25.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc26.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc31.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\enemybullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\enemybullet2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\enemybullet3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\enemybullet4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\enemybullet5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\player2bullet5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\logo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\title.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\choosebitmap.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\角色选择.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\角色选择1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\角色选择2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\角色选择3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\wav1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\01 - さぁ冒険を始めたまえ! 【オープニング】.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\choose.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\加一条命.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\die.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\shoot.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\sc.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\hp1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\hp2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\warning.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\wall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\ending.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\logo31.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource\www.ico.la_ecc501bcce2561d336764c5e3108a605_32X32.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="333project.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="333project.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="333project.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
